@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class exp3 {
+public class Exp3 {
 
 	public static void main(String[] args) {
 		
