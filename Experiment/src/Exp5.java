@@ -23,14 +23,14 @@ public class Exp5 {
 	}
 	
 	private static void nextDigit(int number, int a) {
-		number += a;
+		//number += a;
 		for(int b = a + 1; (b - a) <= dd; b++) {
-				number++;
-				if(number > nn) break;
+				//number++;
+				if(number + b > nn) break;
 				re++;
-				System.out.println(number);
+				System.out.println(number+b);
 				if(b >= 9) break;
-				nextDigit(number * 10, b);
+				nextDigit((number + b) * 10, b);
 			}
 	}
 }
